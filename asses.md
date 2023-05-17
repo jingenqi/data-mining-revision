@@ -31,7 +31,7 @@
 
 7. Write the weight update step from gradient descent for an SVM?
 
-* Objective function is following: $$ L(w)= \frac{1}{N}\sum max(0, 1-y_i \cdot (w^Tx_i+b)) + \frac{\lambda}{2}\cdot ||w||^2 $$ 
+* Objective function is following: $ L(w)= \frac{1}{N}\sum max(0, 1-y_i \cdot (w^Tx_i+b)) + \frac{\lambda}{2}\cdot ||w||^2 $ 
 $$ ∇(loss function) = 0 -if-y_i\cdot(w^Tx_i+b)>1, -yx - else $$
 $$ = 1(y_if(x)<1)(-yx) $$
 $$ ∇P=\lambda\cdot w-1(yf(x)<1)(-yx)$$
